@@ -18,42 +18,45 @@ Este proyecto utiliza un algoritmo genético para evolucionar una población de 
 
 1. Clona este repositorio en tu máquina local:
 
-    bash
+    ```bash
     git clone https://github.com/CarlosGranadosO/AlgoritmoGeneticoPalabras.git
-    
+    ```
 
 2. Navega al directorio del proyecto:
 
-    bash
-    cd algoritmo-genetico-palabras
+    ```bash
+    cd AlgoritmoGeneticoPalabras
+   ```
     
 
-3. Instala las dependencias requeridas (si las hay):
+4. Instala las dependencias requeridas (si las hay):
 
-    bash
+    ```bash
     # Por ejemplo, si usas Python y tienes un requirements.txt
     pip install -r requirements.txt
-    
+    ```
 
 ## Uso
 
 1. Abre el archivo de configuración y ajusta los parámetros según tus necesidades:
 
-    python
+    ```python
     # configuración en config.py (por ejemplo)
     objetivo = "Hola Mundo"
     poblacionMax = 100
     mutacion = 0.01
     generaciones = 1000
+   ```
     
 
-2. Ejecuta el algoritmo:
+3. Ejecuta el algoritmo:
 
-    bash
+    ```bash
     python algGen.py
+    ```
     
 
-3. Observa la evolución de la población en la consola hasta que se encuentre la palabra objetivo o se alcance el número máximo de generaciones.
+4. Observa la evolución de la población en la consola hasta que se encuentre la palabra objetivo o se alcance el número máximo de generaciones.
 
 ## Ejemplo de Salida
 
