@@ -19,7 +19,7 @@ Este proyecto utiliza un algoritmo genético para evolucionar una población de 
 1. Clona este repositorio en tu máquina local:
 
     bash
-    git clone https://github.com/tu-usuario/algoritmo-genetico-palabras.git
+    git clone https://github.com/CarlosGranadosO/AlgoritmoGeneticoPalabras.git
     
 
 2. Navega al directorio del proyecto:
@@ -41,10 +41,10 @@ Este proyecto utiliza un algoritmo genético para evolucionar una población de 
 
     python
     # configuración en config.py (por ejemplo)
-    target_word = "Hola Mundo"
-    population_size = 100
-    mutation_rate = 0.01
-    max_generations = 1000
+    objetivo = "Hola Mundo"
+    poblacionMax = 100
+    mutacion = 0.01
+    generaciones = 1000
     
 
 2. Ejecuta el algoritmo:
