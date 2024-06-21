@@ -58,5 +58,4 @@ Este proyecto utiliza un algoritmo genético para evolucionar una población de 
 
 4. Observa la evolución de la población en la consola hasta que se encuentre la palabra objetivo o se alcance el número máximo de generaciones.
 
-## Ejemplo de Salida
 
